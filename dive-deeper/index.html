@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Metadata -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=""/>
+        <link rel="canonical" href="https://peeps-dev.vercel.app" />
+
+        <!-- Page Title -->
+        <title>Peeps Docs</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="/assets/peeps-small.png" type="image/x-icon">
+
+        <!-- CSS Imports -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/latex.css">
+        <link rel="stylesheet" href="/css/schemes/blue.css">
+        
+        <!-- Inter Font Import -->
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    </head>
+
+    <body>
+        <!--Header -->
+        <h2><a href="/" style="text-decoration: none; color: #98971a">Peeps Docs</a></h2>
+        <section style="padding-top: 0rem;">
+            <p><small>Jump to:&nbsp;
+                <a href="/introduction" style="color: #d79921">What is Peeps?</a> ·
+                <a href="/dive-deeper" style="color: #d65d0e">Getting Started</a> ·
+                <a href="/use-it" style="color: #458588">Using Peeps (No Code)</a> ·
+                <a href="/deploy-it" style="color: #458588">Using Peeps (Code)</a> ·
+                <a href="/whats-next" style="color: #b16286">What's Next</a>
+            </small></p>
+        </section>
+
+        <!-- Page Title -->
+        <section>
+            <h1>Dive Deeper into Peeps</h1>
+            <p>In this section, we will introduce you to the core aspects of Peeps and what to expect when you get to use Peeps. We will alos talk in ore detail about some specific demography of users whom Peeps will be beneficial to.</p>
+            <ul>
+                <li><a href="#features">What makes up Peeps</a></li>
+                <li><a href="#users">Understanding our Users</a></li>
+                <li><a href="#business-oppportunity">What's our business model?</a></li>
+            </ul>
+        </section>
+
+        <hr/>
+
+        <!-- The Features -->
+        <section style="padding: 2em">
+            <h2 id="features">What makes up Peeps?</h2>
+            <p>Peeps is a revolutionary social media platform built on cutting-edge blockchain technology, designed to empower you to connect, create, and explore the future of online interaction.  Here's a glimpse into the exciting features that await you:</p>
+            <h3>GENERAL FEATURES:</h3>
+            <h3>1. Secure and Familiar Micro-Blogging:</h3>
+                <ul>
+                    <li><small>Feel right at home with a micro-blogging experience similar to Twitter.  Express yourself with posts, images, and videos.</small></li>
+                    <li><small>Engage in meaningful conversations with comments, likes, and reposts.</small></li>
+                    <li><small>Rest assured knowing your data is secure on IPFS and onchain.</small></li>
+                </ul>
+            <h3>2. Web3 Wallet: Your Gateway to a New Era:</h3>
+                <ul>
+                    <li><small>Store and manage your tokens and NFTs directly within the platform with your secure in-platform web3 wallet.  No need for complex external tools.</small></li>
+                    <li><small>Explore the exciting world of decentralized finance (DeFi) with ease.</small></li>
+                </ul>
+            <h3>3. Empowering Creators, Rewarding Fans:</h3>
+                <ul>
+                    <li><small>Directly reward creators you appreciate with platform tokens through our innovative tipping system.</small></li>
+                    <li><small>Seamlessly send tokens to other users or withdraw them to your external wallets.</small></li>
+                    <li><small>Foster a thriving creator economy where high-quality content is valued.</small></li>
+                </ul>
+            <h3>4. Playful Connections: The Gaming Arcade Awaits!</h3>
+                <ul>
+                    <li><small>Take a break from the feed and dive into the fun-filled world of our online gaming arcade.</small></li>
+                    <li><small>Connect and socialize with other users through shared gaming experiences.</small></li>
+                    <li><small>Discover a new dimension of social interaction where play meets community.</small></li>
+                </ul>
+            <h3>5. Built for the Future, Built for You:</h3>
+                <ul>
+                    <li><small>Leverage the power of blockchain technology for a secure, transparent, and censorship-resistant platform.</small></li>
+                    <li><small>Be part of a future-oriented social media landscape that embraces innovation and exploration.</small></li>
+                    <li><small>Join a growing community of users who value genuine connections and the potential of web3.</small></li>
+                </ul>
+                <hr/>
+            <h3>TECHNICAL FEATURES:</h3>
+            <h3>1. Identity Verification:</h3>
+            <p><small>With the use zkPass zk-KYC verification system, users who sign up to Peeps must verify their identity using either LinkedIn or Discord, this verification is done before account setup or any interaction is done on the platform. To further the protetion to the use of Peeps, users who intend to use any of its DeFi capabilities must verify their coinbase accounts, that sets up the platform as a KYC-compliant and secure platform.</small></p>
+            <h3>2. Account Creation and Profile Set-Up:</h3>
+            <p><small>With account abstraction functionalities provided by the integration of [Thirdweb's](https://portal.thirdweb.com/connect/sign-in/overview) SDK, users can create their accounts using social login (Gmail, Apple ID, Facebook, Email or Phone Number) or any of their supported Ethereum wallet of choice (Metamask, Coinbase, OKX, etc), this gives them access to interacting on the platform.</small></p>
+            <h3>3. Standard Social Media Functionality:</h3>
+            <p><small>After users create their accounts, they now can create, read, comment and 'repeep' their posts as well as the posts of other users.</small></p>
+            <h3>4. Recommendation Algorithm:</h3>
+            <p><small>Peeps runs a Recommendation Algorithm engine inside of the Cartesi machine which generates users' recommendations to posts and other contents based on their activities within Peeps. The recommendation algorithm tracks activities such as likes, comments and posts which suggest the user's interests and recommends to the user similar content. The Algorithm is custom-built by the Peeps Development team. The algorithm incorporates machine learning in classifying the posts made by users into predefined categories which will aid in suggesting post recommendations.</small></p>
+            <h3>5. Web 3 Wallet:</h3> 
+            <p><small>This feature distinguishes Peeps from other existing social media platforms as it allows users to leverage decentralized finance (DeFi) brought upon by Blockchain technology. Users regardless of their location can send and receive funds as well as other digital assets.</small></p>
+            <h3>6. Tipping Feature:</h3>
+            <p><small>Peeps empowers creators in a decentralized way with a built-in tipping system. This feature harnesses the power of the underlying blockchain's DeFi capabilities to enable seamless, secure microtransactions. This feature will foster a direct connection between creators and their audience, building a community where value is directly rewarded.</small></p>
+            <h3>7. Custom Peeps Token:</h3>
+            <p><small>Peeps uses a custom token to facilitate the tipping feature. The Peeps token is deployed to the Arbitrum Sepolia testnet, find the token address [here](https://sepolia.arbiscan.io/token/0x952949596423e916c5befaa050afd8b443e0d2c0).</small></p>
+            <h3>8. Integration with IPFS:</h3>
+            <p><small>Peeps is integrated and makes use of the InterPlanetary File System (IPFS) for the storage of Peeps data. By leveraging IPFS, Peeps empowers a truly decentralized social media experience where users' content remains decentralized, secure, and accessible.</small></small></p>
+            <h3>9. Gaming Arcade:</h3> 
+            <p><small>This is also an additional feature that allows users to access a variety of cool and exciting games. Games built and deployed using Cartesi can be plugged into Peeps and users would not only have a social media platform but also a gaming center for relaxation and more fun.</small></p>
+        </section>
+
+        <hr/>
+
+        <!-- Understanding our Users -->
+        <section style="padding: 2em">
+            <h2 id="users">Understanding our Users</h2>
+            <p>Based on the platform's features, here's a breakdown of our target user personas:</p>
+            <h3>1. The Security-Conscious Socializer:</h3>
+            <p><small><b>Description:</b> This user prioritizes privacy and security in their online interactions. They're concerned about data breaches and centralized control of their information.</small></p>
+            <p><small><b>Needs:</b> They seek a social media platform built on a secure and decentralized infrastructure like blockchain. </small></p>
+            <p><small><b>Motivations:</b> They're drawn to the platform's KYC process to minimize fake accounts and the overall transparency offered by blockchain technology.</small></p>
+
+            <h3>2. The Crypto-Curious Creator:</h3>
+
+            <p><small><b>Description:</b> This user is interested in exploring the potential of cryptocurrency and blockchain technology. They might have some basic knowledge but are eager to learn more through practical applications.</small></p>
+            <p><small><b>Needs:</b> They need a user-friendly platform that allows them to experience web3 features like in-platform wallets, tokens, and NFTs without complex external tools.</small></p>
+            <p><small><b>Motivations:</b> They're excited about the potential for direct monetization through tipping and token transfers, fostering a more sustainable way to create content.</small></p>
+
+            <h3>3. The Engaged Content Consumer:</h3>
+
+            <p><small><b>Description:</b> This user enjoys consuming engaging content on social media and appreciates creators who produce high-quality work. </small></p>
+            <p><small><b>Needs:</b> They seek a platform with familiar micro-blogging features but also value innovative ways to interact with creators.</small></p>
+            <p><small><b>Motivations:</b> They're drawn to the platform's tipping and token transfer features, allowing them to directly reward creators they appreciate.  This fosters a stronger connection with the content they consume.</small></p>
+
+            <h3>4. The Social Gamer:</h3>
+
+            <p><small><b>Description:</b> This user enjoys social interaction and online gaming. They're looking for a platform that combines these elements to create a more engaging experience.</small></p>
+            <p><small><b>Needs:</b> They need a platform that offers a variety of games and facilitates interaction with other players while enjoying the game.</small></p>
+            <p><small><b>Motivations:</b> They're excited about the gamification aspect, providing a fun way to connect and socialize with other users on the platform.</small></p>
+
+            <h3>5. The Future-Oriented User:</h3>
+
+            <p><small><b>Description:</b> This user is interested in being part of the cutting edge of social media and technology. They're curious about the potential of decentralized applications (dApps) and web3.</small></p>
+            <p><small><b>Needs:</b> They seek a platform that embraces innovative technologies and positions itself for future growth within the web3 landscape.</small></p>
+            <p><small><b>Motivations:</b> They're drawn to the platform's use of blockchain technology, seeing it as a glimpse into the future of social media and online interactions.</small></p>
+
+            <p>By understanding these target personas, we can tailor the platform's messaging and functionalities to resonate with each user group.  This will help attract and retain a diverse user base that thrives on this innovative social media experience.</p>
+        </section>
+
+        <hr/>
+
+        <!-- The Business Opportunity -->
+        <section style="padding: 2em">
+            <h2 id="business-opportunity">Our Business Proposition</h2>
+            <h3>The Future of Social Media is Here: Invest in a Decentralized, Secure, and Engaging Platform with Peeps</h3>
+
+            <h3>The Problem:</h3> 
+            <p><small>Current social media platforms are plagued by issues of data privacy, security breaches, limited monetization for creators, and a decline in genuine user engagement.</small></p> 
+
+            <h3>Our Solution:</h3> 
+            <p><small>Peeps is a revolutionary social media platform built on blockchain technology, offering a secure, transparent, and rewarding user experience. </small></P>
+
+            <h3>The Opportunity:</h3> 
+            <p><small>We are capturing a massive market yearning for a better way to connect online. Our platform caters to individuals and businesses alike, offering:</small></p>
+                <ul>
+                <li><small><b>For Users:</b> A secure and familiar micro-blogging experience with innovative features like in-platform wallets, tipping, and a social gaming arcade.</small></p>
+                <li><small><b>For Businesses:</b> Dedicated tools for brand management, customer engagement, and exploring the potential of web3 marketing and tokenization.</small></p>
+                </ul>
+
+            <h3>Our Competitive Advantage:</h3>
+
+            <p><small><b>1. Decentralized and Secure:</b> Built on blockchain technology, Peeps prioritizes user data security and empowers users through a decentralized ownership model.</small></p>
+            <p><small><b>2. Empowering Creators:</b> Our platform fosters a thriving creator economy with direct tipping and tokenized rewards, fostering high-quality content creation.</small></p>
+            <p><small><b>3. Engaging and Innovative:</b>  We offer a unique blend of familiar features with cutting-edge web3 integration and a social gaming experience.</small></p>
+
+            <h3>The Market Potential:</h3> 
+            <p><small>The global social media market is expected to reach a staggering 6 billion users by 2030. Peeps is positioned to capture a significant share of this market by offering a solution that addresses the shortcomings of existing platforms.</small></p>
+
+            <h3>Investment Highlights:</h3>
+
+            <p><small><b>1.Experienced Team:</b> Our team comprises passionate social media and blockchain experts with a proven track record of success.</small></p>
+            <p><small><b>2.Scalable Technology:</b>  Our platform is built on a robust and scalable blockchain infrastructure to accommodate a growing user base.</small></p>
+            <p><small><b>3.Clear Revenue Streams:</b>  We have a diversified revenue model that includes transaction fees, premium features for businesses, and potential future advertising opportunities within the platform.</small></p>
+
+            <p>Join us in revolutionizing social media!  Invest in Peeps and be a part of building the future of secure, engaging, and rewarding online interaction.</p>
+
+        <hr/>
+
+        <!-- Navigation -->
+        <section>
+            <p style="text-align:left;">
+                <!-- Back to Previous-->
+                <a href="/introduction">← <b>The Essentials</b></a>
+                <span style="float:right;">
+                    <!-- On to Next -->
+                    <a href="/use-it"><b>Use Peeps!</b> →</a>
+                </span>
+            </p>
+        </section>
+    </body>
+</html>
